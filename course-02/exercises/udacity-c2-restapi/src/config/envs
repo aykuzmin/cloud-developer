@@ -1,0 +1,10 @@
+
+export POSTGRESS_USERNAME=udagramkuzmindev;
+export POSTGRESS_PASSWORD=udagramkuzmindev;
+export POSTGRESS_DATABASE=udagramkuzmindev;
+export POSTGRESS_HOST=udagramkuzmindev.ctkbqyjjxbsr.us-east-1.rds.amazonaws.com;
+export AWS_REGION=us-east-1;
+export AWS_PROFILE=default;
+export AWS_MEDIA_BUCKET=udagram-kuzmin-dev;
+export JWT_SECRET=helloworld;
+

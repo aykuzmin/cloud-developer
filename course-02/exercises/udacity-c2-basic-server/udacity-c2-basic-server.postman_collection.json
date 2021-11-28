@@ -18,10 +18,10 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:8082/cars/",
+							"raw": "http://192.168.17.19:8082/cars/",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"192.168.17.19"
 							],
 							"port": "8082",
 							"path": [
@@ -42,10 +42,10 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:8082/cars/?make=toyota",
+							"raw": "http://192.168.17.19:8082/cars/?make=toyota",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"192.168.17.19"
 							],
 							"port": "8082",
 							"path": [
@@ -79,10 +79,10 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:8082/cars/2",
+							"raw": "http://192.168.17.19:8082/cars/2",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"192.168.17.19"
 							],
 							"port": "8082",
 							"path": [
@@ -110,10 +110,10 @@
 							"raw": "{ \"make\": \"ford\", \"type\": \"sedan\", \"model\": \"focus\", \"cost\": 12, \"id\": 9 }\n"
 						},
 						"url": {
-							"raw": "http://localhost:8082/cars",
+							"raw": "http://192.168.17.19:8082/cars",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"192.168.17.19"
 							],
 							"port": "8082",
 							"path": [
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "http://localhost:8082/",
+			"name": "http://192.168.17.19:8082/",
 			"event": [
 				{
 					"listen": "test",
@@ -153,10 +153,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8082/",
+					"raw": "http://192.168.17.19:8082/",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192.168.17.19"
 					],
 					"port": "8082",
 					"path": [
@@ -167,7 +167,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8082/persons/george",
+			"name": "http://192.168.17.19:8082/persons/george",
 			"event": [
 				{
 					"listen": "test",
@@ -195,10 +195,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8082/persons/:name",
+					"raw": "http://192.168.17.19:8082/persons/:name",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192.168.17.19"
 					],
 					"port": "8082",
 					"path": [
@@ -216,7 +216,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8082/persons/:name Copy",
+			"name": "http://192.168.17.19:8082/persons/:name Copy",
 			"event": [
 				{
 					"listen": "test",
@@ -247,10 +247,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8082/persons?name=george",
+					"raw": "http://192.168.17.19:8082/persons?name=george",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192.168.17.19"
 					],
 					"port": "8082",
 					"path": [
@@ -267,7 +267,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8082/persons/",
+			"name": "http://192.168.17.19:8082/persons/",
 			"event": [
 				{
 					"listen": "test",
@@ -302,10 +302,10 @@
 					"raw": "{\n    \"name\": \"james\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8082/persons",
+					"raw": "http://192.168.17.19:8082/persons",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192.168.17.19"
 					],
 					"port": "8082",
 					"path": [
@@ -316,7 +316,7 @@
 			"response": []
 		},
 		{
-			"name": "400 http://localhost:8082/persons/:name",
+			"name": "400 http://192.168.17.19:8082/persons/:name",
 			"event": [
 				{
 					"listen": "test",
@@ -339,10 +339,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8082/persons/",
+					"raw": "http://192.168.17.19:8082/persons/",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192.168.17.19"
 					],
 					"port": "8082",
 					"path": [
@@ -380,7 +380,7 @@
 		{
 			"id": "0db39ab1-774e-4108-8078-7a4d7df27657",
 			"key": "endpoint",
-			"value": "http://localhost:8082",
+			"value": "http://192.168.17.19:8082",
 			"type": "string"
 		}
 	]
